@@ -32,8 +32,7 @@ namespace ConsoleApp1
             double a = double.Parse(Console.ReadLine());
             Console.Write("b=");
             double b = double.Parse(Console.ReadLine());
-            double product = a * b;
-            Console.WriteLine($"{a}*{b}={product:F1}");
+            Console.WriteLine($"{a:F1}*{b:F1}={a*b:F1}");
             Console.Read();*/
 
             //Task 4 
@@ -55,7 +54,7 @@ namespace ConsoleApp1
             double c = double.Parse(Console.ReadLine());
             Console.Write("d=");
             double d = double.Parse(Console.ReadLine());
-            Console.WriteLine($"{a}/{b}+{c}/{d}={(a / b + c / d):F2}");
+            Console.WriteLine($"{a:F2}/{b:F2}+{c:F2}/{d:F2}={(a / b + c / d):F2}");
             Console.Read();*/
 
             //task 6
@@ -65,7 +64,7 @@ namespace ConsoleApp1
             int b = int.Parse(Console.ReadLine());
             Console.Write($"a+b={a}+{b}={a + b}");
             Console.Write($"  a-b={a}-{b}={a - b}");
-            Console.Write($"  a*b={a}*{b}={a * b}");
+            Console.WriteLine($"  a*b={a}*{b}={a * b}");
             Console.Read();*/
 
             //Task 7
@@ -75,7 +74,7 @@ namespace ConsoleApp1
             int b = int.Parse(Console.ReadLine());
             Console.Write("c=");
             int c = int.Parse(Console.ReadLine());
-            Console.Write($"[{a}*({b}+{c})]=[({b}+{c})*{a}]={a*(b+c)}");
+            Console.WriteLine($"[{a}*({b}+{c})]=[({b}+{c})*{a}]={a*(b+c)}");
             Console.Read();*/
 
             //Task 8
@@ -85,7 +84,7 @@ namespace ConsoleApp1
             double b = double.Parse(Console.ReadLine());
             Console.Write("c=");
             double c = double.Parse(Console.ReadLine());
-            Console.Write($"({a:F4}+({b:F4}+{c:F4})=({a:F4}+{b:F4}+{c:F4})");
+            Console.WriteLine($"({a:F4}+({b:F4}+{c:F4})=({a:F4}+{b:F4}+{c:F4})");
             Console.Read();*/
 
             //Task 9
@@ -93,7 +92,7 @@ namespace ConsoleApp1
             double x = double.Parse(Console.ReadLine());
             Console.Write("y=");
             int y = int.Parse(Console.ReadLine());
-            Console.Write($"{x * 3}/y={(x * 3 / y):F4}");
+            Console.WriteLine($"{x * 3}/{y}={(x * 3 / y):F4}");
             Console.Read();*/
 
             //Task10
@@ -101,7 +100,7 @@ namespace ConsoleApp1
             double a = double.Parse(Console.ReadLine());
             Console.Write("b=");
             double b = double.Parse(Console.ReadLine());
-            Console.Write($"a*b={a:F3}*{b:F3}={a*b:F3}   a*b={a:F5}*{b:F5}={a*b:F5}");
+            Console.WriteLine($"a*b={a:F3}*{b:F3}={a*b:F3}   a*b={a:F5}*{b:F5}={a*b:F5}");
             Console.Read();*/
         }
     }
