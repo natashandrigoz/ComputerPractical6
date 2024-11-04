@@ -46,7 +46,7 @@ namespace ConsoleApp1
             Console.Read();*/
 
             //Task 5
-            /*Console.Write("a=");
+            Console.Write("a=");
             double a = double.Parse(Console.ReadLine());
             Console.Write("b=");
             double b = double.Parse(Console.ReadLine());
@@ -55,7 +55,7 @@ namespace ConsoleApp1
             Console.Write("d=");
             double d = double.Parse(Console.ReadLine());
             Console.WriteLine($"{a:F2}/{b:F2}+{c:F2}/{d:F2}={(a / b + c / d):F2}");
-            Console.Read();*/
+            Console.Read();
 
             //task 6
             /*Console.Write("a=");

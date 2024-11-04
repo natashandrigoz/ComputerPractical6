@@ -104,7 +104,7 @@ ___
 
 
 
-![](https://i.postimg.cc/cH11RwWn/2024-11-04-151950209.png)
+![](https://i.postimg.cc/v8JpjmGK/2024-11-04-182319740.png)
 #### Решение:
 ```C#
 namespace ConsoleApp5
