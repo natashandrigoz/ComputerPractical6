@@ -100,6 +100,7 @@ namespace ConsoleApp1
             double a = double.Parse(Console.ReadLine());
             Console.Write("b=");
             double b = double.Parse(Console.ReadLine());
+            doouble b=Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"a*b={a:F3}*{b:F3}={a*b:F3}   a*b={a:F5}*{b:F5}={a*b:F5}");
             Console.Read();*/
         }
